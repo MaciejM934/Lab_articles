@@ -1,0 +1,8 @@
+--- app/views/layouts/_navbar.html.erb
++++ app/views/layouts/_navbar.html.erb
+@@ -0,0 +1,5 @@
++<div class="container">
++    <nav class="navbar navbar-expand-lg navbar-light bg-light">
++        <%= link_to "Articles", articles_path, :class => "nav-link" %>
++    </nav>
++</div>
